@@ -1,0 +1,12 @@
+{
+  "name": "agentcollect-hiring-challenge",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "contact-finder": "npm run build && node dist/challenge/contact_finder/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2"
+  }
+}
